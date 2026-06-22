@@ -24,3 +24,10 @@ var ans = arr.find(function(val){
     if(val === 2) return val;
 })
 console.log(ans);
+
+
+var obj = {
+    name: "Priyansh",
+    age: 21,
+    address: "Gohad"
+}

@@ -31,3 +31,24 @@ var obj = {
     age: 21,
     address: "Gohad"
 }
+// Object.freeze(obj);
+obj.age = 25;
+
+function abcd(a,b,c,d){
+
+}
+
+function abc(){
+    return "hello hello";
+}
+
+var ans = abc();
+
+
+async function abcd(){
+    var blob = await fetch(`https://randomuser.me/api/`);
+    var ans = await blob.json();
+
+    console.log(ans.results[0].name);
+}
+abcd();
